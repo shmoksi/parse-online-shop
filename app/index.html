@@ -2,13 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset='UTF-8' />
+    <title>Search shop</title>
+    <link rel='stylesheet' href='style.css' />
 </head>
 
 <body>
-    <h1> Hello Oksi</h1>
+    <section id="showcase">
+        <div class="top-container">
+            <h1>logo</h1>
+            <h1>
+                FIND ME
+            </h1>
+        </div>
+    </section>
+
+    <form action="" method="post" class="form-example">
+        <section id="user form">
+            <div class="tovar-id"><label for="t1">Посилання на товар:</label>
+                <input type="text" name="cloth" id="t1"></div>
+            <div class="radio-button">
+                <div>
+                    <label for="c1">Одяг</label>
+                    <input type="radio" name="type" id="c1"></div>
+                <div>
+                    <label for="c2">Взуття</label>
+                    <input type="radio" name="type" id="c2"></div>
+                <div>
+                    <label for="c3">Аксесуари</label>
+                    <input type="radio" name="type" id="c3"></div>
+            </div>
+            <div class="drop-down">
+                <label for="size-select">Розмір:</label>
+
+                <select name="size" id="size-select">
+                    <option value="">--Будь ласка оберіть розмір--</option>
+                    <option value="xs">XS</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                </select></div>
+            <div class="check-box">
+                <div>
+                    <label for="pryvat">ПриватБанк</label>
+                    <input type="checkbox" id="pryvat" name="pryvat" checked>
+                </div>
+
+                <div>
+                    <label for="mono">Монобанк</label>
+                    <input type="checkbox" id="mono" name="mono">
+
+                </div>
+            </div>
+        </section>
+    </form>
+
+    <section id="result">
+        <div>Ukraine</div>
+        <div>Spain</div>
+    </section>
 </body>
 
 </html>
